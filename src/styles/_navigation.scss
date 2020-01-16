@@ -1,0 +1,11 @@
+.navigation {
+    display: flex;
+    justify-content: space-between ;
+    background: #db4c3f;
+    align-items: center;
+    padding: 1rem;
+    .logo {
+        color: white;
+        font-size: 1.8rem;
+    }
+}

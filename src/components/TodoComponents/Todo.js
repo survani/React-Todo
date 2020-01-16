@@ -3,9 +3,10 @@ import React from "react";
 const Todo = props => {
   return (
     <div
-      onClick={e => props.toggleCompleted(props.task.id)}
+      onClick={event => props.toggleCompleted(props.task.id)}
+      className={`task${props.task.completed ? " completed" : ""}`}
     >
-      <p>{props.task.task}</p>
+      <p className="task">{props.task.task}</p>
     </div>
   );
 };
